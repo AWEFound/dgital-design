@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(114, 0, 221);
+}
+
+.container{
+    padding: 0px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px;
+}
+
+.container .container-items {
+    list-style-type: none;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.container .container-items .logo{
+    color: rgb(114, 0, 221);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: -10px;
+    display: flex;
+}
+
+.container .container-items .menus{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+
+}
+
+.container .container-items .menus a{
+    color: rgb(114, 0, 221);
+    margin-right: 30px;
+}
+
+.container .container-items a{
+    text-decoration: none;
+}
+
+
+.container .container-items .button {
+    background-color: rgb(255, 174, 0);
+    border-radius: 25px;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container .container-items .button a {
+    color: black;
+}
+
+
+.content {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.content .content-left{
+    width: 50px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 30px;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.content .content-left pre h2{
+    font-family: sans-serif;
+    font-weight: solid;
+    font-size: 35px;
+    color: white;
+    width: 500px;
+    margin-left: -100px;
+    margin-top: -50px;
+    
+}
+
+.content .content-left pre p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+    
+
+.content .twin-buttons{
+    margin-top: 230px;
+    margin-left: -400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.content .yellow-button li {
+    background-color: rgb(255, 174, 0);
+    border-radius: 25px;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-basis: 45%;
+}
+
+.content .yellow-button li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.content .white-button li {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.content .white-button li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.content .content-left .content-right li img{
+    width: 500px;
+    margin-left: 260px;
+    display: flex;
+    justify-content: flex-end;
+}
